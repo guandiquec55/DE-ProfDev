@@ -2,7 +2,7 @@
 
 ## What it is...
 
-1. Download the 2019 OLTP Adventure Works database (https://docs.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver15&tabs=ssms) and restore on a local MSSQL instance by using SQL Server on Docker for Mac (https://docs.microsoft.com/en-us/sql/linux/quickstart-install-connect-docker?view=sql-server-ver15&pivots=cs1-bash)
+1. Download the 2019 OLTP Adventure Works bak file (https://docs.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver15&tabs=ssms) and restore on a local MSSQL instance by using SQL Server on Docker for Mac (https://docs.microsoft.com/en-us/sql/linux/quickstart-install-connect-docker?view=sql-server-ver15&pivots=cs1-bash)
 
 2. Create a python application considering pep8 (https://www.python.org/dev/peps/pep-0008/) which does the following:
    1. Takes all rows from the Sales.CurrencyRate table from the restored database
