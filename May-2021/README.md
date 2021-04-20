@@ -7,7 +7,7 @@
 2. Create a python application considering pep8 (https://www.python.org/dev/peps/pep-0008/) which does the following:
    1. Takes all rows from the Sales.CurrencyRate table from the restored database
    2. Sends an API request to https://free.currencyconverterapi.com/ in order to get the latest converstion rate
-   3. Updates the database record w/ the latest conversion rate.
+   3. Update the database record w/ the latest conversion rate.
    4. Have the application "come alive" then "fall asleep" until the top of every hour so it gets the latest conversion rates
 
 ## Must Dos...
