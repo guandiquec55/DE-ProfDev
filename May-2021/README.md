@@ -15,6 +15,6 @@
 1. Use DocStrings
 2. Save a requirement.txt file
 3. Consider code complexity (i.e. O(n) complexity https://dzone.com/articles/learning-big-o-notation-with-on-complexity#:~:text=O(n)%20represents%20the%20complexity,after%20reading%20all%20n%20elements)
-4. If O(n) complexity is optional, consider parallel processing through concurrent runs on a single thtread (i.e. multiprocessing) or multithreading! OR BOTH! :) -- multiprocess within each instantiated thread
+4. If O(n) complexity is optimal, consider parallel processing through concurrent runs on a single thtread (i.e. multiprocessing) or multithreading! OR BOTH! :) -- multiprocess within each instantiated thread
 
 ## Don't forget -- send us your solution by the last day of May. We will then upload it to this repo so all people can see what people tried to solve the problem.
