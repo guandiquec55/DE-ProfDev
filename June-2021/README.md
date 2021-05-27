@@ -31,6 +31,10 @@
 
 4. In summary, the python script in #2 will send a POST request to the Flask API from #3 and #3 will print on the terminal that the docker-compose was ran on the most popular words and most popular cities on rows as well as the popular words associated to those.
 
+## Tips...
+
+1. It can be hard to sometimes see what's happening with your code when you're running an app in Docker. It might be helpful to "trial" code on a spark enabled jupyter notebook. Steps on how are here: https://levelup.gitconnected.com/using-docker-and-pyspark-134cd4cab867
+
 ## Must Dos...
 
 1. Use DocStrings
