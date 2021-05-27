@@ -34,6 +34,7 @@
 ## Tips...
 
 1. It can be hard to sometimes see what's happening with your code when you're running an app in Docker. It might be helpful to "trial" code on a spark enabled jupyter notebook. Steps on how are here: https://levelup.gitconnected.com/using-docker-and-pyspark-134cd4cab867
+2. To check if you API works you can use your terminal and send "curl" posts to the endpoint you enabled on your localhost. Postman is also an option (or similar) if you have access to it.
 
 ## Must Dos...
 
