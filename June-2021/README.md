@@ -18,7 +18,7 @@
    4. By using the base image above, that means your container will have spark installed on it. You can "invoke" spark by using "CMD" instead of "RUN" (under #Run Tests) as in this repo: https://github.com/ksmc/RL-cleanse-standardize-app/blob/master/Dockerfile.
    5. Given the JSON payload, your code should print into the terminal two things:
    6. The top 10 words in the payload (consider standardizing the word such as case sensitivity, the use of "." at the end of sentences, etc. etc.)
-   7. The cities that had the most rows associated (in that order) to it and the top ten words associated to the city in for example this format:
+   7. The cities that had the most rows associated (in that order) to it and the top ten words associated to the city in for example this format (consider standardizing words like the last step as well for city names):
       ```
       [
         {'Hyderabad' : [{'SomeWord':10},{'SomeWord2'}:08}]},
