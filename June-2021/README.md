@@ -21,7 +21,7 @@
    7. The cities that had the most rows associated (in that order) to it and the top ten words associated to the city in for example this format (consider standardizing words like the last step as well for city names):
       ```
       [
-        {'Hyderabad' : [{'SomeWord':10},{'SomeWord2'}:08}]},
+        {'Hyderabad' : [{'SomeWord':10},{'SomeWord2'}:8}]},
         {'Pune' : [{'SomeWord':5},{'SomeWord2'}:4}]},
         {'Chennai' : [{'SomeWord':2},{'SomeWord2'}:1}]}
       ]
