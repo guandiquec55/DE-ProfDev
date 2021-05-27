@@ -19,12 +19,12 @@
    5. Given the JSON payload, your code should print into the terminal two things:
    6. The top 10 words in the payload (consider standardizing the word such as case sensitivity, the use of "." at the end of sentences, etc. etc.)
    7. The cities that had the most rows associated (in that order) to it and the top ten words associated to the city in for example this format:
-      ```[
+      ````[
       {'Hyderabad' : [{'SomeWord':10},{'SomeWord2'}:08}]},
       {'Pune' : [{'SomeWord':5},{'SomeWord2'}:4}]},
       {'Chennai' : [{'SomeWord':2},{'SomeWord2'}:1}]}
-      ]
-      ```
+      ]```
+      ````
    8. The code you use MUST be using PySpark for this portion. Map Reduce might be a good approach for this! RDD or DataFrames are OK.
    9. Set up this code so you can run it using "docker-compose" and the application should run forever so long as the docker-compose is "up"
 
