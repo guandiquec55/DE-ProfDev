@@ -43,4 +43,4 @@
 3. Consider code complexity (i.e. O(n) complexity https://dzone.com/articles/learning-big-o-notation-with-on-complexity#:~:text=O(n)%20represents%20the%20complexity,after%20reading%20all%20n%20elements)
 4. The docker component should be written AS MUCH as possible in PySpark using Distributed Computing concepts.
 
-## Don't forget -- send us your solution by the FIRST Wednesday of June (7th). We will then upload it to this repo so all people can see what people tried to solve the problem.
+## Don't forget -- send us your solution by the FIRST Wednesday of July (7th). We will then upload it to this repo so all people can see what people tried to solve the problem.
