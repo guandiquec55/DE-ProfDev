@@ -1,0 +1,8 @@
+
+APScheduler==3.7.0
+importlib-metadata==0.23
+ipynb==0.5.1
+pandas==0.25.1
+pyodbc==4.0.27
+python-dateutil==2.8.0
+requests==2.22.0
