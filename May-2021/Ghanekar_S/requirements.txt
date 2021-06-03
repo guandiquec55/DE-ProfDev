@@ -1,0 +1,7 @@
+pyodbc==4.0.28
+pandas
+requests
+sqlalchemy
+urllib
+datetime
+apscheduler
