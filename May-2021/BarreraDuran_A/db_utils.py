@@ -1,4 +1,4 @@
-from sqlalchemy.orm import Session, mapper
+from sqlalchemy.orm import Session
 import sqlalchemy as sa
 import pandas as pd
 from typing import Dict, List
