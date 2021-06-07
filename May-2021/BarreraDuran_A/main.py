@@ -11,7 +11,7 @@ if __name__ == '__main__':
             "SELECT DISTINCT FromCurrencyCode, ToCurrencyCode FROM [Sales].[CurrencyRate]")
         currencies['CombCurr'] = currencies['FromCurrencyCode'] + \
             '_' + currencies['ToCurrencyCode']
-        curr_list_str = ','.join(currencies['CombCurr'].values)
+        curr_list_str = list(currencies['CombCurr'].values)
         new_curr_rates = get_latest_rate(curr_list_str)
         dt_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         values = []

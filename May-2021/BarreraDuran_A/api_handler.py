@@ -21,8 +21,7 @@ def get_latest_rate(from_to_list, key='86c11fb2002736345d0d'):
         a dictionary of currency exchange rates in current time
     """
     output_dict = {}
-    tmp_list = from_to_list.split(',')
-    for chunk in more_itertools.chunked(tmp_list, 2):
+    for chunk in more_itertools.chunked(from_to_list, 2):
         two_rates = ','.join(chunk)
         req = f'https://free.currconv.com/api/v7/convert?q={two_rates}&compact=ultra&apiKey={key}'
         r = requests.get(req)
