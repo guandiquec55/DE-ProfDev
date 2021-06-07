@@ -1,0 +1,16 @@
+FROM mcr.microsoft.com/mssql/server:2019-latest
+
+USER root
+
+ENV SA_PASSWORD=CorrectHorseBatteryStaple4_For
+ENV ACCEPT_EULA=Y
+
+COPY ./AdventureWorks2019.bak /var/opt/mssql/backup/AdventureWorks2019.bak
+
+RUN mkdir ./home/data && mkdir ./home/log
+
+RUN touch ./home/data/AdventureWorks2019.mdf && touch /home/log/AdventureWorks2019_Log.ldf
+
+EXPOSE 1433
+
+CMD /opt/mssql-tools/bin/sqlcmd -S localhost -U 'sa' -P "CorrectHorseBatteryStaple4_For" -d master -Q"RESTORE DATABASE AdventureWorks2019 FROM DISK='/var/opt/mssql/backup/AdventureWorks2019.bak' WITH  FILE = 1, STATS = 5, REPLACE,  MOVE N'AdventureWorks2017' TO  N'/home/data/AdventureWorks2019.mdf', MOVE N'AdventureWorks2017_Log'  TO  N'/home/log/AdventureWorks2019_Log.ldf'" & /opt/mssql/bin/sqlservr

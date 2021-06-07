@@ -1,0 +1,11 @@
+version: "3.7"
+services:
+  mssql:
+    build:
+      context: .
+      dockerfile: Dockerfile.db
+    container_name: mssql
+    ports:
+      - "1433:1433"
+    expose:
+      - 1433
